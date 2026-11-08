@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanks for subscribing — DevLab</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://uk.devlab.blog/img/devlab-favicon-32.png">
+  <style>
+    :root{--bg:#070b14;--accent:#5ad1ff;--text:#f5f7ff;--muted:#9ca3c4;--border:rgba(255,255,255,.07)}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+      background:var(--bg);color:var(--text);
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center;padding:24px}
+    body::before{content:"";position:fixed;inset:0;z-index:-1;
+      background:radial-gradient(60vw 50vh at 50% -10%,rgba(90,209,255,.14),transparent 60%)}
+    .box{max-width:460px}
+    img{width:48px;height:48px;margin:0 auto 20px}
+    .check{width:68px;height:68px;border-radius:50%;background:rgba(90,209,255,.14);
+      border:1px solid rgba(90,209,255,.35);display:flex;align-items:center;justify-content:center;
+      font-size:32px;color:var(--accent);margin:0 auto 22px}
+    h1{font-size:28px;margin:0 0 12px}
+    p{color:var(--muted);margin:0 0 26px;line-height:1.6}
+    .btn{display:inline-flex;gap:8px;padding:12px 22px;border-radius:999px;font-weight:600;
+      background:var(--accent);color:#04121b;text-decoration:none}
+    .btn:hover{filter:brightness(1.08)}
+    .alt{display:block;margin-top:16px;color:var(--muted);font-size:14px;text-decoration:none}
+    .alt:hover{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="check">✓</div>
+    <h1>You're on the list 🎉</h1>
+    <p>Thanks for subscribing to DevLab. New guides and comparisons on ERP, low-code and automation will land in your inbox — no spam, unsubscribe any time.</p>
+    <a class="btn" href="https://en.devlab.blog/">Start reading the blog →</a>
+    <a class="alt" href="/">← Back to devlab.blog</a>
+  </div>
+</body>
+</html>
