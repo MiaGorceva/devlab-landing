@@ -59,6 +59,7 @@
     .nav-lang{display:flex; gap:10px; font-size:13px; color:var(--text-muted)}
     .nav-lang a{padding:2px 4px}
     .nav-lang a:hover{color:var(--accent)}
+    .nav-lang a.active{color:var(--accent)}
     .btn{display:inline-flex; align-items:center; justify-content:center; gap:8px;
       padding:11px 20px; border-radius:999px; font-weight:600; font-size:15px;
       border:1px solid transparent; cursor:pointer; transition:.18s}
@@ -172,11 +173,9 @@
         <a href="#subscribe">Newsletter</a>
         <a href="#contact">Contact</a>
       </nav>
-      <div class="nav-lang" aria-label="Blog languages">
-        <a href="https://en.devlab.blog/">EN</a>
-        <a href="https://pl.devlab.blog/">PL</a>
-        <a href="https://ru.devlab.blog/">RU</a>
-        <a href="https://uk.devlab.blog/">UA</a>
+      <div class="nav-lang" aria-label="Language">
+        <a href="/" class="active">EN</a>
+        <a href="/uk/">UA</a>
       </div>
       <div class="nav-cta">
         <a class="btn btn-primary" href="https://en.devlab.blog/">Read the blog</a>
@@ -292,14 +291,14 @@
 
       <div class="panel org">
         <h2>Organization</h2>
-        <p class="org-lead">DevLab is run by <strong>ГО «Центр передових розробок»</strong> (NGO “Center for Advanced Development”), a registered non-profit in Ukraine. Contributions support our mission — accelerating business-process automation through low-code technologies. To support us or get involved, write to <a class="accent" href="mailto:info@devlab.blog">info@devlab.blog</a>.</p>
+        <p class="org-lead">DevLab is run by <strong>NGO “Center for Advanced Development”</strong> (ГО «Центр передових розробок»), a registered non-profit in Ukraine. Contributions support our mission — accelerating business-process automation through low-code technologies. To support us or get involved, write to <a class="accent" href="mailto:info@devlab.blog">info@devlab.blog</a>.</p>
         <dl class="org-grid">
-          <div><dt>Legal name</dt><dd>ГО «Центр передових розробок»</dd></div>
-          <div><dt>Code ЄДРПОУ</dt><dd>45939590</dd></div>
+          <div><dt>Legal name</dt><dd>NGO “Center for Advanced Development”</dd></div>
+          <div><dt>Reg. code (ЄДРПОУ)</dt><dd>45939590</dd></div>
           <div><dt>Activity (КВЕД)</dt><dd>94.99 — other membership organizations</dd></div>
           <div><dt>Director</dt><dd>Tetyana Koloteva</dd></div>
           <div><dt>Email</dt><dd><a class="accent" href="mailto:info@devlab.blog">info@devlab.blog</a></dd></div>
-          <div class="wide"><dt>Registered address</dt><dd>Україна, 49044, Дніпропетровська обл., м.&nbsp;Дніпро, вул.&nbsp;Барикадна, буд.&nbsp;15А, корп.&nbsp;1, оф.&nbsp;428</dd></div>
+          <div class="wide"><dt>Registered address</dt><dd>15A Barykadna St., Block 1, Office 428, Dnipro, Dnipropetrovsk Oblast, 49044, Ukraine</dd></div>
         </dl>
       </div>
     </section>
@@ -320,7 +319,7 @@
         <a href="mailto:info@devlab.blog">Contact</a>
       </div>
     </div>
-    <div class="wrap foot-legal">ГО «Центр передових розробок» (NGO “Center for Advanced Development”) · ЄДРПОУ 45939590 · м.&nbsp;Дніпро, Україна · <a href="mailto:info@devlab.blog">info@devlab.blog</a></div>
+    <div class="wrap foot-legal">NGO “Center for Advanced Development” (ГО «Центр передових розробок») · Reg. 45939590 · Dnipro, Ukraine · <a href="mailto:info@devlab.blog">info@devlab.blog</a></div>
   </footer>
 
   <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
